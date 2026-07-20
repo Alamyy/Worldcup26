@@ -1,10 +1,41 @@
 # World Cup 2026 Open Match Data
 
+![World Cup 2026 Open Match Data banner](assets/worldcup26-open-data-banner.png)
+
 Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data.
+
+[![CSV dataset](https://img.shields.io/badge/format-CSV-1f7a4d)](data/csv)
+[![Matches](https://img.shields.io/badge/matches-104-0f766e)](data/csv/matches.csv)
+[![Teams](https://img.shields.io/badge/teams-48-2563eb)](data/csv/teams.csv)
+[![Tables](https://img.shields.io/badge/tables-21-b91c1c)](docs/table_inventory.md)
+[![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-111827)](LICENSE)
+[![Analytics Lab](https://img.shields.io/badge/explore-Analytics%20Lab-7c3aed)](https://worldcup26-analyticslab.vercel.app/)
 
 The tables in this repository are based on publicly available post-match reports from the FIFA Training Centre. They are organized for analysts, journalists, students, scouts, builders, and football fans who want to explore the tournament through structured data.
 
 This repository publishes data tables only. It does not include report PDFs, player images, scraped media, or dashboard assets.
+
+## Dataset At A Glance
+
+| Coverage | Count |
+| --- | ---: |
+| Matches | 104 |
+| Teams | 48 |
+| Player records | 1,277 |
+| Published CSV tables | 21 |
+| Team-match rows | 208 |
+| Match appearance rows | 5,392 |
+| Passing-network edges | 52,072 |
+
+## Quick Links
+
+| Destination | Use it for |
+| --- | --- |
+| [Analytics Lab](https://worldcup26-analyticslab.vercel.app/) | Explore the tournament visually and uncover match, team, and player insights. |
+| [Table Inventory](docs/table_inventory.md) | See every published table with row and column counts. |
+| [Data Dictionary](docs/data_dictionary.md) | Inspect the columns available in each CSV. |
+| [Schema Guide](docs/schema.md) | Understand join keys and relationships. |
+| [CSV Data](data/csv) | Download or query the published tables directly. |
 
 ## What's Included
 
@@ -22,6 +53,7 @@ This repository publishes data tables only. It does not include report PDFs, pla
 ## Repository Layout
 
 ```text
+assets/                   Repository banner and branding assets
 data/csv/                 Published CSV tables
 docs/data_dictionary.md   Table-by-table columns and row counts
 docs/schema.md            Join keys and table relationships
