@@ -62,7 +62,9 @@ ORDER BY m.match_number, a.minute;
 
 ## Related Project
 
-This public dataset was prepared from the broader World Cup 2026 analytics work in [Worrldcup26-FifaTrainingCentre](https://github.com/Alamyy/Worrldcup26-FifaTrainingCentre).
+Explore the companion analytics experience at [World Cup 26 Analytics Lab](https://worldcup26-analyticslab.vercel.app/).
+
+The Analytics Lab is an interactive dashboard for browsing the tournament dataset visually: match summaries, team analytics, player profiles, comparisons, passing networks, tactical matchups, and scouting-style views built from these published data tables.
 
 ## Notes
 
