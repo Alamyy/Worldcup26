@@ -2,7 +2,9 @@
 
 Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data.
 
-The tables in this repository are based on publicly available post-match reports from the FIFA Training Centre. This repository publishes data tables only. It does not include report PDFs, player images, scraped media, or dashboard assets.
+The tables in this repository are based on publicly available post-match reports from the FIFA Training Centre. They are organized for analysts, journalists, students, scouts, builders, and football fans who want to explore the tournament through structured data.
+
+This repository publishes data tables only. It does not include report PDFs, player images, scraped media, or dashboard assets.
 
 ## What's Included
 
@@ -62,9 +64,11 @@ ORDER BY m.match_number, a.minute;
 
 ## Related Project
 
-Explore the companion analytics experience at [World Cup 26 Analytics Lab](https://worldcup26-analyticslab.vercel.app/).
+Explore the companion platform at [World Cup 26 Analytics Lab](https://worldcup26-analyticslab.vercel.app/).
 
-The Analytics Lab is an interactive dashboard for browsing the tournament dataset visually: match summaries, team analytics, player profiles, comparisons, passing networks, tactical matchups, and scouting-style views built from these published data tables.
+The Analytics Lab is a public platform for exploring the tournament, uncovering the dataset, and turning the FIFA Training Centre reports into a deeper football analysis experience. It helps you move from match-level context into team patterns, individual player profiles, comparisons, passing networks, tactical matchups, and scouting-style insights.
+
+Use this repository when you want the raw tables. Use the Analytics Lab when you want to investigate the tournament visually, dig into matches and teams, and uncover the stories behind the data.
 
 ## Notes
 
