@@ -1,0 +1,424 @@
+{
+  "name": "worldcup26-open-data",
+  "title": "World Cup 2026 Open Match Data",
+  "generated_date": "2026-07-20",
+  "format": "CSV",
+  "tables": [
+    {
+      "name": "attempts_at_goal.csv",
+      "rows": 2571,
+      "columns": [
+        "appearance_id",
+        "body_part",
+        "delivery_type",
+        "event_id",
+        "match_id",
+        "match_team_id",
+        "minute",
+        "outcome",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "source_page",
+        "team",
+        "team_id"
+      ]
+    },
+    {
+      "name": "match_appearances.csv",
+      "rows": 5392,
+      "columns": [
+        "appearance_id",
+        "appeared",
+        "goal_minutes",
+        "is_starter",
+        "match_id",
+        "match_team_id",
+        "own_goal_minutes",
+        "player_id",
+        "player_name",
+        "position",
+        "red_card_minutes",
+        "shirt_number",
+        "status",
+        "subbed_off_minutes",
+        "subbed_on_minutes",
+        "team",
+        "team_id",
+        "team_role",
+        "yellow_card_minutes"
+      ]
+    },
+    {
+      "name": "match_teams.csv",
+      "rows": 208,
+      "columns": [
+        "home_away",
+        "match_id",
+        "match_team_id",
+        "score",
+        "team_id",
+        "team_name"
+      ]
+    },
+    {
+      "name": "matches.csv",
+      "rows": 104,
+      "columns": [
+        "away_score",
+        "away_team",
+        "away_team_id",
+        "date",
+        "group",
+        "home_score",
+        "home_team",
+        "home_team_id",
+        "kickoff",
+        "match_id",
+        "match_number",
+        "page_count",
+        "penalty_result",
+        "source_url",
+        "venue"
+      ]
+    },
+    {
+      "name": "passing_network_edges.csv",
+      "rows": 52072,
+      "columns": [
+        "edge_id",
+        "from_appearance_id",
+        "from_player",
+        "from_player_id",
+        "from_shirt_number",
+        "match_id",
+        "match_team_id",
+        "pass_count",
+        "source_page",
+        "team",
+        "team_id",
+        "to_appearance_id",
+        "to_player",
+        "to_player_id",
+        "to_shirt_number"
+      ]
+    },
+    {
+      "name": "player_crosses_open_play.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "cutback",
+        "driven",
+        "inswing",
+        "lofted",
+        "match_id",
+        "match_team_id",
+        "outswing",
+        "player_id",
+        "player_name",
+        "push_cross",
+        "shirt_number",
+        "team",
+        "team_id",
+        "topic",
+        "total_attempted"
+      ]
+    },
+    {
+      "name": "player_events.csv",
+      "rows": 2587,
+      "columns": [
+        "appearance_id",
+        "event_id",
+        "event_type",
+        "match_id",
+        "match_team_id",
+        "minute",
+        "minute_raw",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "source_page",
+        "team",
+        "team_id"
+      ]
+    },
+    {
+      "name": "player_in_possession_distributions.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "attempts_at_goal",
+        "ball_progressions",
+        "crosses_attempted",
+        "crosses_completed",
+        "goals",
+        "line_break_completion_pct",
+        "line_breaks_attempted",
+        "line_breaks_completed",
+        "match_id",
+        "match_team_id",
+        "pass_completion_pct",
+        "passes_attempted",
+        "passes_completed",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "source_page",
+        "step_ins",
+        "switches_of_play",
+        "take_ons",
+        "team",
+        "team_id"
+      ]
+    },
+    {
+      "name": "player_line_breaks.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "direction_around",
+        "direction_over",
+        "direction_through",
+        "distribution_ball_progression",
+        "distribution_cross",
+        "distribution_pass",
+        "four_units_attacking_line",
+        "four_units_attacking_midfield_line",
+        "four_units_defensive_line",
+        "four_units_midfield_line",
+        "line_break_completion_pct",
+        "line_breaks_attempted",
+        "line_breaks_completed",
+        "match_id",
+        "match_team_id",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "team",
+        "team_id",
+        "three_units_attacking_line",
+        "three_units_defensive_line",
+        "three_units_midfield_line",
+        "topic",
+        "two_units_defensive_line",
+        "two_units_midfield_line"
+      ]
+    },
+    {
+      "name": "player_offers_receptions.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "in_behind",
+        "in_between",
+        "in_front",
+        "in_to_out",
+        "match_id",
+        "match_team_id",
+        "no_movement",
+        "offers_received",
+        "out_to_in",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "source_page",
+        "team",
+        "team_id",
+        "total_offers"
+      ]
+    },
+    {
+      "name": "player_out_of_possession.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "blocks",
+        "clearances",
+        "duels_won_aerial",
+        "duels_won_physical",
+        "interceptions",
+        "loose_ball_receptions",
+        "match_id",
+        "match_team_id",
+        "player_id",
+        "player_name",
+        "possession_contests_won",
+        "possession_interrupted",
+        "possession_regains",
+        "pressing_direct",
+        "pressing_indirect",
+        "pushing_on",
+        "pushing_on_into_pressing",
+        "shirt_number",
+        "tackles_made_won",
+        "team",
+        "team_id",
+        "topic"
+      ]
+    },
+    {
+      "name": "player_physical_data.csv",
+      "rows": 3288,
+      "columns": [
+        "appearance_id",
+        "high_speed_runs_zone3",
+        "match_id",
+        "match_team_id",
+        "player_id",
+        "player_name",
+        "shirt_number",
+        "source_page",
+        "sprints_zone4_5",
+        "team",
+        "team_id",
+        "top_speed_kmh",
+        "total_distance_m",
+        "zone1_0_7_kmh_m",
+        "zone2_7_15_kmh_m",
+        "zone3_15_20_kmh_m",
+        "zone4_20_25_kmh_m",
+        "zone5_25_plus_kmh_m"
+      ]
+    },
+    {
+      "name": "players.csv",
+      "rows": 1277,
+      "columns": [
+        "appearances_count",
+        "display_name",
+        "player_id",
+        "shirt_numbers",
+        "team_id"
+      ]
+    },
+    {
+      "name": "team_aerial_control.csv",
+      "rows": 208,
+      "columns": [
+        "delivery_cutback",
+        "delivery_driven",
+        "delivery_inswing",
+        "delivery_lofted",
+        "delivery_outswing",
+        "delivery_push",
+        "delivery_total",
+        "match_id",
+        "match_team_id",
+        "source_page",
+        "team",
+        "team_id"
+      ]
+    },
+    {
+      "name": "team_defensive_pressure.csv",
+      "rows": 208,
+      "columns": [
+        "avg_pressure_duration_s",
+        "ball_recovery_time_s",
+        "direct_pressures",
+        "forced_turnovers",
+        "match_id",
+        "match_team_id",
+        "pressing_direction_inside",
+        "pressing_direction_outside",
+        "pushing_on",
+        "pushing_on_into_pressing",
+        "source_page",
+        "team",
+        "team_id",
+        "total_pressures"
+      ]
+    },
+    {
+      "name": "team_goal_prevention.csv",
+      "rows": 208,
+      "columns": [
+        "deflect_retain",
+        "match_id",
+        "match_team_id",
+        "no_save_attempt",
+        "save_attempt",
+        "save_deflect",
+        "save_pct",
+        "save_retain",
+        "source_page",
+        "team",
+        "team_id",
+        "total_attempts_faced",
+        "total_interventions"
+      ]
+    },
+    {
+      "name": "team_goalkeeping_distribution.csv",
+      "rows": 832,
+      "columns": [
+        "match_id",
+        "match_team_id",
+        "metric",
+        "source_page",
+        "team",
+        "team_id",
+        "value"
+      ]
+    },
+    {
+      "name": "team_key_stats.csv",
+      "rows": 3432,
+      "columns": [
+        "match_id",
+        "match_team_id",
+        "metric",
+        "raw",
+        "team",
+        "team_id",
+        "unit",
+        "value"
+      ]
+    },
+    {
+      "name": "team_phases.csv",
+      "rows": 3536,
+      "columns": [
+        "match_id",
+        "match_team_id",
+        "phase",
+        "phase_group",
+        "raw",
+        "team",
+        "team_id",
+        "unit",
+        "value"
+      ]
+    },
+    {
+      "name": "team_set_plays.csv",
+      "rows": 3328,
+      "columns": [
+        "category",
+        "from_left_side",
+        "from_right_side",
+        "match_id",
+        "match_team_id",
+        "metric",
+        "source_page",
+        "team",
+        "team_id",
+        "value"
+      ]
+    },
+    {
+      "name": "teams.csv",
+      "rows": 48,
+      "columns": [
+        "team_id",
+        "team_name"
+      ]
+    }
+  ],
+  "table_count": 21,
+  "match_count": 104,
+  "team_count": 48,
+  "player_count": 1277
+}
