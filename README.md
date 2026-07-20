@@ -1,4 +1,5 @@
-# World Cup 2026 Open Match Data
+# World Cup 2026 Dataset 
+## All 104 52-Paged Match Reports published by FIFA Training Centre, aggregated on player and team level.
 
 ![World Cup 2026 Open Match Data banner](assets/worldcup26-open-data-banner.png)
 
