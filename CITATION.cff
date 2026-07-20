@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: World Cup 2026 Open Match Data
+message: If you use this dataset, please cite it and attribute the original FIFA Training Centre reports.
+type: dataset
+authors:
+  - name: Alamy AI
+repository-code: https://github.com/Alamyy/worldcup26-open-data
+license: CC-BY-4.0
+keywords:
+  - football
+  - soccer
+  - world-cup
+  - open-data
+  - sports-analytics
