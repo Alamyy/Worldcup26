@@ -1,5 +1,6 @@
-# World Cup 2026 Dataset 
-## All 104 52-Paged Match Reports published by FIFA Training Centre, aggregated on player and team level.
+# World Cup 2026 Dataset
+
+## All 104 FIFA Training Centre post-match reports, organized into 95,739 rows and 1.47M+ structured data cells across match, team, and player performance.
 
 ![World Cup 2026 Open Match Data banner](assets/worldcup26-open-data-banner.png)
 
@@ -11,7 +12,7 @@
   <img src="assets/a47-logo.png" alt="A47 logo" width="140">
 </p>
 
-Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data, with 95,739 published rows and 1.47M+ structured data cells across the tournament.
+Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data.
 
 [![CSV dataset](https://img.shields.io/badge/format-CSV-1f7a4d)](data/csv)
 [![Matches](https://img.shields.io/badge/matches-104-0f766e)](data/csv/matches.csv)
