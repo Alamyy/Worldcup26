@@ -1,4 +1,4 @@
-# World Cup 2026 Open Match Data
+# World Cup 2026 Analytics || FIFA Training Center Aggregated Match Data
 
 ![World Cup 2026 Open Match Data banner](assets/worldcup26-open-data-banner.png)
 
