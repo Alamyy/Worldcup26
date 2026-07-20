@@ -2,12 +2,21 @@
 
 ![World Cup 2026 Open Match Data banner](assets/worldcup26-open-data-banner.png)
 
-Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data.
+<p align="center">
+  <a href="https://worldcup26-analyticslab.vercel.app/">
+    <img src="assets/analytics-lab-logo.png" alt="World Cup Analytics Lab logo" width="140">
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <img src="assets/a47-logo.png" alt="A47 logo" width="140">
+</p>
+
+Open CSV dataset for exploring FIFA World Cup 2026 match, team, and player-level performance data, with 95,739 published rows and 1.47M+ structured data cells across the tournament.
 
 [![CSV dataset](https://img.shields.io/badge/format-CSV-1f7a4d)](data/csv)
 [![Matches](https://img.shields.io/badge/matches-104-0f766e)](data/csv/matches.csv)
 [![Teams](https://img.shields.io/badge/teams-48-2563eb)](data/csv/teams.csv)
 [![Tables](https://img.shields.io/badge/tables-21-b91c1c)](docs/table_inventory.md)
+[![Data cells](https://img.shields.io/badge/data%20cells-1.47M+-f59e0b)](metadata/dataset_summary.json)
 [![License: CC BY 4.0](https://img.shields.io/badge/license-CC%20BY%204.0-111827)](LICENSE)
 [![Analytics Lab](https://img.shields.io/badge/explore-Analytics%20Lab-7c3aed)](https://worldcup26-analyticslab.vercel.app/)
 
@@ -23,6 +32,8 @@ This repository publishes data tables only. It does not include report PDFs, pla
 | Teams | 48 |
 | Player records | 1,277 |
 | Published CSV tables | 21 |
+| Published rows | 95,739 |
+| Structured data cells | 1,476,650 |
 | Team-match rows | 208 |
 | Match appearance rows | 5,392 |
 | Passing-network edges | 52,072 |
@@ -53,7 +64,7 @@ This repository publishes data tables only. It does not include report PDFs, pla
 ## Repository Layout
 
 ```text
-assets/                   Repository banner and branding assets
+assets/                   Repository banner and brand assets
 data/csv/                 Published CSV tables
 docs/data_dictionary.md   Table-by-table columns and row counts
 docs/schema.md            Join keys and table relationships
