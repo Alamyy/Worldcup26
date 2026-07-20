@@ -1,0 +1,22 @@
+note,table_name,table_role
+,attempts_at_goal.csv,primary
+"Per-match audit of section/page detection, including overflow pages.",extraction_section_pages.csv,audit
+,match_appearances.csv,primary
+,match_teams.csv,primary
+,matches.csv,primary
+,passing_network_edges.csv,primary
+,player_crosses_open_play.csv,primary
+,player_events.csv,primary
+,player_in_possession_distributions.csv,primary
+,player_line_breaks.csv,primary
+,player_offers_receptions.csv,primary
+,player_out_of_possession.csv,primary
+,player_physical_data.csv,primary
+,players.csv,primary
+,team_aerial_control.csv,primary
+,team_goal_prevention.csv,primary
+Reliable summary values; detailed directional-map geometry is not structured yet.,team_goalkeeping_distribution.csv,partial
+Dashboard headline values and cross-checks for detailed tables.,team_key_stats.csv,summary
+,team_phases.csv,primary
+,team_set_plays.csv,primary
+,teams.csv,primary
